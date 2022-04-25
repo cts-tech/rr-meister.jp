@@ -53,6 +53,23 @@
 		<div class="clearfix"></div>
 		
 		<!--ここまでフッターウィジェット-->
+
+        <!-- グループサイトエリア -->
+        <?php if( is_front_page() && is_home() ): ?>
+            <div class="group_area">
+                <div class="group_are_box">
+                    <ul class="group_list">
+                        <li><a href="https://distant-love.com/" target="_blank">別れさせ屋探しなら大人の恋愛マイスター</a></li>
+                        <li><a href="https://revival-love.com/" target="_blank">復縁したいなら復縁パーフェクトガイド</a></li>
+                        <li><a href="https://zaikei.co.jp/jobs/" target="_blank">おすすめの退職代行の比較なら退職代行マイスター</a></li>
+                        <li><a href="https://www.zaikei.co.jp/disposal/" target="_blank">安い不用品回収業社の比較サイト不用品回収の教科書</a></li>
+                        <li><a href="https://ys-meister.jp/" target="_blank">おすすめの屋根修理業社探しなら屋根修理マイスター</a></li>
+                        <li><a href="https://www.jmedj.co.jp/fun/" target="_blank">動画配信サービスの比較サイトならクライマーズ</a></li>
+                    </ul>
+                </div>
+            </div>
+        <?php endif; ?>
+        <!-- /グループサイトエリア -->
 	
 		<?php if ( footer_choice() == 'both' ) : ?>
 			<div id="footer-box">
