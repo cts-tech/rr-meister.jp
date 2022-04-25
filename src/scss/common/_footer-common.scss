@@ -1,0 +1,53 @@
+@use "../module/mixin" as *;
+
+/* グループサイトエリア */
+.group_area {
+    margin-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 25px;
+    padding-top: 10px;
+    border-bottom: 1px solid #fff;
+    
+    @include tablet {
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+        margin: 0 auto 15px;
+    }
+
+    .group_are_box {
+        width: 100%;
+        margin: 0 auto;
+
+        @include tablet {
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+
+        @include theme_desktop {
+            width: 1200px;
+            padding-left: 30px;
+            padding-right: 30px;
+        }
+
+        .group_list {
+            display: flex;
+            flex-wrap: wrap;
+
+            li {
+                border-right: 1px solid #fff;
+                padding-right: 10px;
+                margin-right: 10px;
+                margin-bottom: 5px;
+
+                a {
+                    display: block;
+                    font-weight: 300;
+                    font-size: .75rem;
+                    color: #fff;
+                }
+            }
+        }
+    }
+}

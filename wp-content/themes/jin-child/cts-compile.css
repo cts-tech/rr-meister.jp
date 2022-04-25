@@ -1,0 +1,55 @@
+@charset "UTF-8";
+/* グループサイトエリア */
+.group_area {
+  margin-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 25px;
+  padding-top: 10px;
+  border-bottom: 1px solid #fff;
+}
+@media screen and (min-width: 768px) {
+  .group_area {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0 auto 15px;
+  }
+}
+.group_area .group_are_box {
+  width: 100%;
+  margin: 0 auto;
+}
+@media screen and (min-width: 768px) {
+  .group_area .group_are_box {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .group_area .group_are_box {
+    width: 1200px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+.group_area .group_are_box .group_list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.group_area .group_are_box .group_list li {
+  border-right: 1px solid #fff;
+  padding-right: 10px;
+  margin-right: 10px;
+  margin-bottom: 5px;
+}
+.group_area .group_are_box .group_list li a {
+  display: block;
+  font-weight: 300;
+  font-size: 0.75rem;
+  color: #fff;
+}
+/*# sourceMappingURL=cts-compile.css.map */
